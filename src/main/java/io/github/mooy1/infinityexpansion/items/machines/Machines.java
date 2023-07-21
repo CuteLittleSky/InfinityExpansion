@@ -192,7 +192,7 @@ public final class Machines {
             "&9基础&8圆石生成器",
             "",
             MachineLore.speed(1),
-            MachineLore.energyPerSecond(24)
+            MachineLore.energyPerSecond(32)
     );
     public static final SlimefunItemStack ADVANCED_COBBLE = new SlimefunItemStack(
             "ADVANCED_COBBLE_GEN",
@@ -200,7 +200,7 @@ public final class Machines {
             "&c高级&8圆石生成器",
             "",
             MachineLore.speed(4),
-            MachineLore.energyPerSecond(120)
+            MachineLore.energyPerSecond(196)
     );
     public static final SlimefunItemStack INFINITY_COBBLE = new SlimefunItemStack(
             "INFINITY_COBBLE_GEN",
@@ -208,7 +208,7 @@ public final class Machines {
             "&c无尽&8圆石生成器",
             "",
             MachineLore.speed(64),
-            MachineLore.energyPerSecond(800)
+            MachineLore.energyPerSecond(1400)
     );
     public static final SlimefunItemStack BASIC_OBSIDIAN = new SlimefunItemStack(
             "BASIC_OBSIDIAN_GEN",
@@ -216,7 +216,7 @@ public final class Machines {
             "&8黑曜石生成器",
             "",
             MachineLore.speed(1),
-            MachineLore.energyPerSecond(240)
+            MachineLore.energyPerSecond(500)
     );
     public static final SlimefunItemStack SINGULARITY_CONSTRUCTOR = new SlimefunItemStack(
             "SINGULARITY_CONSTRUCTOR",
@@ -225,7 +225,7 @@ public final class Machines {
             "&7凝聚大量资源",
             "",
             MachineLore.speed(1),
-            MachineLore.energyPerSecond(120)
+            MachineLore.energyPerSecond(200)
     );
     public static final SlimefunItemStack INFINITY_CONSTRUCTOR = new SlimefunItemStack(
             "INFINITY_CONSTRUCTOR",
@@ -234,7 +234,7 @@ public final class Machines {
             "&7快速凝聚大量资源",
             "",
             MachineLore.speed(64),
-            MachineLore.energyPerSecond(1200)
+            MachineLore.energyPerSecond(2000)
     );
     public static final SlimefunItemStack STONEWORKS_FACTORY = new SlimefunItemStack(
             "STONEWORKS_FACTORY",
@@ -251,7 +251,7 @@ public final class Machines {
             "&7从虚无中缓慢收集&8虚空粒",
             "",
             MachineLore.speed(1),
-            MachineLore.energyPerSecond(120)
+            MachineLore.energyPerSecond(200)
     );
     public static final SlimefunItemStack INFINITE_VOID_HARVESTER = new SlimefunItemStack(
             "INFINITE_VOID_HARVESTER",
@@ -259,8 +259,8 @@ public final class Machines {
             "&b无尽&8虚空收集者",
             "&7从虚无中收集&8虚空粒",
             "",
-            MachineLore.speed(64),
-            MachineLore.energyPerSecond(12000)
+            MachineLore.speed(60),
+            MachineLore.energyPerSecond(20000)
     );
     public static final SlimefunItemStack CONCRETE_MOLDING_MACHINE = new SlimefunItemStack(
         "CONCRETE_MOLDING_MACHINE",
