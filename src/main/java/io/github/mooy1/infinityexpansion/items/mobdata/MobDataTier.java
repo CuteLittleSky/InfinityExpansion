@@ -14,7 +14,7 @@ public enum MobDataTier {
     HOSTILE(4, 600, Material.DIAMOND_CHESTPLATE),
 
     // ex: endermen
-    ADVANCED(8, 1200, Material.DIAMOND_CHESTPLATE),
+    ADVANCED(8, 1500, Material.DIAMOND_CHESTPLATE),
 
     // ex: wither
     MINI_BOSS(64, 9000, Material.NETHERITE_CHESTPLATE),
