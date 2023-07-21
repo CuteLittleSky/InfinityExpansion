@@ -225,7 +225,7 @@ public final class Machines {
             "&7凝聚大量资源",
             "",
             MachineLore.speed(1),
-            MachineLore.energyPerSecond(200)
+            MachineLore.energyPerSecond(2000)
     );
     public static final SlimefunItemStack INFINITY_CONSTRUCTOR = new SlimefunItemStack(
             "INFINITY_CONSTRUCTOR",
@@ -234,7 +234,7 @@ public final class Machines {
             "&7快速凝聚大量资源",
             "",
             MachineLore.speed(64),
-            MachineLore.energyPerSecond(2000)
+            MachineLore.energyPerSecond(30000)
     );
     public static final SlimefunItemStack STONEWORKS_FACTORY = new SlimefunItemStack(
             "STONEWORKS_FACTORY",
