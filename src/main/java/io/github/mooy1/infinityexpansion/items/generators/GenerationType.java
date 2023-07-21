@@ -26,7 +26,7 @@ public enum GenerationType {
                 case NETHER:
                     return def * 2.1;
                 case NORMAL:
-                    return def * 0.8;
+                    return def;
                 default:
                     return 0;
             }
