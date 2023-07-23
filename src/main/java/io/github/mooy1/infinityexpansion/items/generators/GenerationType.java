@@ -24,7 +24,7 @@ public enum GenerationType {
         protected int generate(@Nonnull World world, @Nonnull Block block, int def) {
             switch (world.getEnvironment()) {
                 case NETHER:
-                    return def * 3;
+                    return def * 2;
                 case NORMAL:
                     return def;
                 default:
