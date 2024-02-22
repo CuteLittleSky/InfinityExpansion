@@ -271,10 +271,10 @@ public final class Materials {
     public static final SlimefunItemStack REINFORCED_STRAINER = new SlimefunItemStack(
             "REINFORCED_STRAINER",
             Material.FISHING_ROD,
-            "&f强化合金滤网",
+            "&f终极滤网",
             "&7从水流中收集材料",
             "",
-            LoreBuilder.speed(20)
+            LoreBuilder.speed(16)
     );
 
     public static void setup(InfinityExpansion plugin) {
