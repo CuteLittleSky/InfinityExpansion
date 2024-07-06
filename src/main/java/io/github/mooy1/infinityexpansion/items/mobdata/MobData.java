@@ -48,6 +48,7 @@ public final class MobData {
             MachineLore.energyPerSecond(CHAMBER_ENERGY)
     );
 
+    public static final SlimefunItemStack AMETHYST = MobDataCard.create("Amethyst", MobDataTier.PASSIVE);
     public static final SlimefunItemStack COW = MobDataCard.create("Cow", MobDataTier.PASSIVE);
     public static final SlimefunItemStack SHEEP = MobDataCard.create("Sheep", MobDataTier.PASSIVE);
     public static final SlimefunItemStack CHICKEN = MobDataCard.create("Chicken", MobDataTier.PASSIVE);
@@ -96,7 +97,11 @@ public final class MobData {
             // There is some issues with player skull items in randomized sets when testing
             return;
         }
-
+        new MobDataCard(AMETHYST, MobDataTier.PASSIVE, new ItemStack[] {
+                new ItemStack(Material.LEATHER, 64), new ItemStack(Material.BEEF, 64), new ItemStack(Material.LEATHER, 64),
+                new ItemStack(Material.COOKED_BEEF, 64), EMPTY_DATA_CARD, new ItemStack(Material.COOKED_BEEF, 64),
+                new ItemStack(Material.LEATHER, 64), new ItemStack(Material.AMETHYST_SHARD, 64), new ItemStack(Material.LEATHER, 64)
+        }).addDrop(Material.STONE, 1).addDrop(Material.AMETHYST_CLUSTER, 14).register(plugin);
         new MobDataCard(ZOMBIE, MobDataTier.HOSTILE, new ItemStack[] {
                 new ItemStack(Material.IRON_SWORD, 1), new ItemStack(Material.ROTTEN_FLESH, 16), new ItemStack(Material.IRON_SHOVEL, 1),
                 new ItemStack(Material.IRON_INGOT, 64), EMPTY_DATA_CARD, new ItemStack(Material.IRON_INGOT, 64),

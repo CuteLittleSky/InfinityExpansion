@@ -43,6 +43,11 @@ public final class MobDataCard extends SlimefunItem implements RecipeDisplayItem
 
         String name = EntityTypeHelper.getName(StringUtil.dehumanize(id));
 
+        if (id.equalsIgnoreCase("Amethyst")) {
+            id = "Amethyst";
+            name = "紫水晶";
+        }
+        
         return new SlimefunItemStack(
                 rawId + "_DATA_CARD",
                 tier.material,
