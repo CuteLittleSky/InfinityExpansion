@@ -4,6 +4,7 @@ import org.bukkit.Material;
 
 public enum MobDataTier {
 
+    ZISHUIJING(1, 50, Material.AMETHYST_SHARD),
     // ex: chicken
     PASSIVE(2, 150, Material.IRON_CHESTPLATE),
 

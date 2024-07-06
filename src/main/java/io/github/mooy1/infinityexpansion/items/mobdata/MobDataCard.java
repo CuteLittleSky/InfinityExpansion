@@ -46,12 +46,13 @@ public final class MobDataCard extends SlimefunItem implements RecipeDisplayItem
         if (id.equalsIgnoreCase("Amethyst")) {
             id = "Amethyst";
             name = "紫水晶";
-        }
-        
+        }else{name = name + "&b生物";
+            }
+
         return new SlimefunItemStack(
                 rawId + "_DATA_CARD",
                 tier.material,
-                "&e" + name + "&b生物芯片",
+                "&e" + name + "&b芯片",
                 "&7插入生物模拟室中使用",
                 "",
                 MachineLore.energyPerSecond(tier.energy)
