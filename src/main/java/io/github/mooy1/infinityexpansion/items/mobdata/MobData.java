@@ -98,10 +98,10 @@ public final class MobData {
             return;
         }
         new MobDataCard(AMETHYST, MobDataTier.PASSIVE, new ItemStack[] {
-                new ItemStack(Material.LEATHER, 64), new ItemStack(Material.BEEF, 64), new ItemStack(Material.LEATHER, 64),
-                new ItemStack(Material.COOKED_BEEF, 64), EMPTY_DATA_CARD, new ItemStack(Material.COOKED_BEEF, 64),
-                new ItemStack(Material.LEATHER, 64), new ItemStack(Material.AMETHYST_SHARD, 64), new ItemStack(Material.LEATHER, 64)
-        }).addDrop(Material.STONE, 1).addDrop(Material.AMETHYST_CLUSTER, 13).register(plugin);
+                new ItemStack(Material.AMETHYST_BLOCK, 16), new ItemStack(Material.AMETHYST_SHARD, 64), new ItemStack(Material.AMETHYST_BLOCK, 16),
+                new ItemStack(Material.BUDDING_AMETHYST, 1), new ItemStack(Material.AMETHYST_SHARD, 64), EMPTY_DATA_CARD,
+                new ItemStack(Material.AMETHYST_BLOCK, 16), new ItemStack(Material.AMETHYST_SHARD, 64), new ItemStack(Material.AMETHYST_BLOCK, 16)
+        }).addDrop(Material.DEEPSLATE, 1).addDrop(Material.AMETHYST_CLUSTER, 13).register(plugin);
         new MobDataCard(ZOMBIE, MobDataTier.HOSTILE, new ItemStack[] {
                 new ItemStack(Material.IRON_SWORD, 1), new ItemStack(Material.ROTTEN_FLESH, 16), new ItemStack(Material.IRON_SHOVEL, 1),
                 new ItemStack(Material.IRON_INGOT, 64), EMPTY_DATA_CARD, new ItemStack(Material.IRON_INGOT, 64),
