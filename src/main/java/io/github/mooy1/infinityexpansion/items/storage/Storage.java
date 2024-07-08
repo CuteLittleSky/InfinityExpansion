@@ -60,7 +60,7 @@ public final class Storage {
     );
 
     public static void setup(InfinityExpansion plugin) {
-        new StorageForge(Groups.STORAGE, STORAGE_FORGE, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
+        new StorageForge(Groups.BASIC_MACHINES, STORAGE_FORGE, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
                 Materials.MAGSTEEL, new ItemStack(Material.ANVIL), Materials.MAGSTEEL,
                 Materials.MAGSTEEL, new ItemStack(Material.CRAFTING_TABLE), Materials.MAGSTEEL,
                 Materials.MAGSTEEL, new ItemStack(Material.BARREL), Materials.MAGSTEEL,

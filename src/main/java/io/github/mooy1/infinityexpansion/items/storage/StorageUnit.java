@@ -88,7 +88,7 @@ public final class StorageUnit extends MenuBlock implements DistinctiveItem {
     final int max;
 
     public StorageUnit(SlimefunItemStack item, int max, ItemStack[] recipe) {
-        super(Groups.STORAGE, item, StorageForge.TYPE, recipe);
+        super(Groups.BASIC_MACHINES, item, StorageForge.TYPE, recipe);
         this.max = max;
 
         addItemHandler(new BlockTicker() {

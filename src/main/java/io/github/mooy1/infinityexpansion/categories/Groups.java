@@ -23,15 +23,13 @@ public final class Groups {
             new CustomItemStack(Material.LOOM, "&9无尽&7基础机器"));
     public static final ItemGroup ADVANCED_MACHINES = new SubGroup("advanced_machines",
             new CustomItemStack(Material.BLAST_FURNACE, "&c无尽&7高级机器"));
-    public static final ItemGroup STORAGE = new SubGroup("storage",
-            new CustomItemStack(Material.BEEHIVE, "&6无尽&7存储"));
     public static final ItemGroup MOB_SIMULATION = new SubGroup("mob_simulation",
             new CustomItemStack(Material.BEACON, "&b生物模拟"));
     public static final ItemGroup INFINITY_MATERIALS = new SubGroup("infinity_materials",
             new CustomItemStack(Material.NETHERITE_BLOCK, "&b无尽&a材料"));
     public static final ItemGroup MAIN_CATEGORY = new MultiGroup("main",
             new CustomItemStack(Material.NETHER_STAR, "&k｜&b无尽&4贪婪&k｜"), 3,
-            MAIN_MATERIALS, BASIC_MACHINES, ADVANCED_MACHINES, STORAGE, MOB_SIMULATION, INFINITY_MATERIALS, INFINITY);
+            MAIN_MATERIALS, BASIC_MACHINES, ADVANCED_MACHINES, MOB_SIMULATION, INFINITY_MATERIALS, INFINITY);
     public static final ItemGroup INFINITY_CHEAT = new SubGroup("infinity_cheat",
             new CustomItemStack(Material.RESPAWN_ANCHOR, "&b无尽&7物品 &c- 错误配方, 请从无尽工作台中查看正确配方"));
 
