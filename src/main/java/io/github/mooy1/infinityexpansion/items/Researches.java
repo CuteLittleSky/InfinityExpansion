@@ -132,6 +132,9 @@ public final class Researches {
         create(23, "boss_mob_data", "首领生物芯片", 90,
                 MobData.WITHER, MobData.ENDER_DRAGON
         );
+        create(24, "anethyst_data", "紫水晶芯片", 90,
+                MobData.AMETHYST
+);
     }
 
     private static void create(int id, String key, String name, int cost, SlimefunItemStack... items) {

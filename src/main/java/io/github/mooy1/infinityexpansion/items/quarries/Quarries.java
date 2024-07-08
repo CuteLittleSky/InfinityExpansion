@@ -126,7 +126,7 @@ public final class Quarries {
                 Materials.MAGSTEEL_PLATE, SlimefunItems.CARBONADO_EDGED_CAPACITOR, Materials.MAGSTEEL_PLATE,
                 new ItemStack(Material.IRON_PICKAXE), SlimefunItems.GEO_MINER, new ItemStack(Material.IRON_PICKAXE),
                 Materials.MACHINE_CIRCUIT, Materials.MACHINE_CORE, Materials.MACHINE_CIRCUIT
-        }, 1, 6, outputs.toArray(new Material[0])).energyPerTick(1200).register(plugin);
+        }, 1, 6, outputs.toArray(new Material[0])).energyPerTick(600).register(plugin);
 
         if (section.getBoolean("quartz")) {
             new Oscillator(QUARTZ_OSCILLATOR, QUARTZ_CHANCE).register(plugin);
@@ -147,7 +147,7 @@ public final class Quarries {
                 Materials.MACHINE_PLATE, SlimefunItems.ENERGIZED_CAPACITOR, Materials.MACHINE_PLATE,
                 new ItemStack(Material.DIAMOND_PICKAXE), BASIC_QUARRY, new ItemStack(Material.DIAMOND_PICKAXE),
                 Materials.MACHINE_CIRCUIT, Materials.MACHINE_CORE, Materials.MACHINE_CIRCUIT
-        }, 2, 4, outputs.toArray(new Material[0])).energyPerTick(3600).register(plugin);
+        }, 2, 4, outputs.toArray(new Material[0])).energyPerTick(1800).register(plugin);
 
         if (coal) {
             outputs.add(Material.COAL);
@@ -157,7 +157,7 @@ public final class Quarries {
                 Materials.VOID_INGOT, SlimefunExtension.VOID_CAPACITOR, Materials.VOID_INGOT,
                 new ItemStack(Material.NETHERITE_PICKAXE), ADVANCED_QUARRY, new ItemStack(Material.NETHERITE_PICKAXE),
                 Materials.MACHINE_CIRCUIT, Materials.MACHINE_CORE, Materials.MACHINE_CIRCUIT
-        }, 6, 2, outputs.toArray(new Material[0])).energyPerTick(14400).register(plugin);
+        }, 6, 2, outputs.toArray(new Material[0])).energyPerTick(7200).register(plugin);
 
         if (coal) {
             outputs.add(Material.COAL);
@@ -170,7 +170,7 @@ public final class Quarries {
                 Materials.VOID_INGOT, null, Materials.INFINITE_INGOT, Materials.INFINITE_INGOT, null, Materials.VOID_INGOT,
                 Materials.VOID_INGOT, null, Materials.INFINITE_INGOT, Materials.INFINITE_INGOT, null, Materials.VOID_INGOT,
                 Materials.VOID_INGOT, null, Materials.INFINITE_INGOT, Materials.INFINITE_INGOT, null, Materials.VOID_INGOT
-        }, 64, 1, outputs.toArray(new Material[0])).energyPerTick(144000).register(plugin);
+        }, 64, 1, outputs.toArray(new Material[0])).energyPerTick(72000).register(plugin);
     }
 
 }

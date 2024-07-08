@@ -20,7 +20,7 @@ mob-simulation-options:
 
   # 每隔多少粘液刻输出产物和经验
   # 在没有更改 Slimefun 设置的情况下，1 粘液刻 = 0.5 秒
-  ticks-per-output: 20
+  ticks-per-output: 30
 
   # 设置从生物模拟中获取经验的倍率
   xp-multiplier: 1.0
@@ -56,7 +56,7 @@ quarry-options:
     diamond: true
     emerald: true
     redstone: true
-    netherite: true
+    netherite: false
     netherrack: true
   
 # 设置高级铁砧的附魔等级上限
