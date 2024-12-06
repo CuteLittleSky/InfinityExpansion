@@ -25,8 +25,8 @@ public final class Generators {
     private static final int BASIC_SOLAR_ENERGY = 5;
     private static final int ADVANCED_SOLAR_ENERGY = 80;
     private static final int CELESTIAL_ENERGY = 425;
-    private static final int VOID_ENERGY = 1600;
-    private static final int INFINITY_ENERGY = 32_000;
+    private static final int VOID_ENERGY = 4000;
+    private static final int INFINITY_ENERGY = 80_000;
     private static final int INFINITY_REACTOR_ENERGY = 64_000;
 
     public static final SlimefunItemStack INFINITY_REACTOR = new SlimefunItemStack(
